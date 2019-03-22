@@ -15,7 +15,7 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title='All posts'
+          title='DevSight — Insight on modern technology by Miggy Reyes'
           keywords={['blog', 'gatsby', 'javascript', 'react']}
         />
         <Bio />
