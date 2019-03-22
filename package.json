@@ -39,12 +39,12 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
+    "start": "gatsby serve -p $PORT",
     "lint": "eslint pages components",
     "fmt": "prettier --write 'src/{pages,components}/**/*.js'",
     "deploy": "gcloud app deploy",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "gcp-build": "yarn build"
   },
   "repository": {
     "type": "git",
