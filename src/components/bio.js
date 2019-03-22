@@ -38,11 +38,9 @@ function Bio() {
                 }}
               />
               <p>
-              Written by <strong>{author}</strong> who goes to school at Texas
-              Tech University. He likes to build cool apps and is learning how
-              to cook food.<br />
+                <strong>{author}</strong> - Student at Texas Tech University. <br /> He likes to build cool apps and is learning how to cook food.<br />
                 <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter.
+                  Checkout my twitter
                 </a>
               </p>
             </div>
