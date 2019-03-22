@@ -1,21 +1,18 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
+title: My First Blog!
+date: "2019-03-22T07:43:57.091Z"
+description: "So what now?"
 ---
 
-This is my first post on my new fake blog! How exciting!
+## Lets talk about Gatsby
+So I took some time tonight to start on a blog. I was looking at [Dan Abramov's](https://overreacted.io/) personal
+blog and I wanted to make something quick and easy to make. Here we are 3 hours later with a blog that actually works
+and is on Google App Engine.
 
-I'm sure I'll write a lot more interesting things in the future.
+Really excited to start this up and I hope that this becomes a regular thing! I am hoping to talk about my girlfriend
+on this blog though. I would like to go on cool adventures and tell yall about it and keep track of all the cool stuff
+that we/I/she starts doing
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
+Formal intro to who I am is coming soon!
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
-
-![Chinese Salty Egg](./salty_egg.jpg)
+Thank you guys for reading!
