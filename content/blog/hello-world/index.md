@@ -16,3 +16,13 @@ that we/I/she starts doing
 Formal intro to who I am is coming soon!
 
 Thank you guys for reading!
+
+```go
+// BeHappy is the meaning of life. Thank you for coming to my TED talk
+func BeHappy() {
+  passion := "Something you really like to do"
+  for {
+    go Do(passion)
+  }
+}
+```
