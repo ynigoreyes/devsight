@@ -40,7 +40,7 @@ they **do** want.
 
 For the most part, yeah. I have a little bit of professional experience. I create web apps a lot and I worked for
 a small local start up, but that didn't go so well. No names, but I was just not feeling like I was growing in that
-company. I didn't like the culture a whole lot, and I really just applied because my friend works they and they said
+company. I didn't like the culture a whole lot, and I really just applied because my friend works there and they said
 they needed help.
 
 However, I am an incoming Microsoft Explore Intern in Redmond, Seattle. I got my offer sometime in early February.
