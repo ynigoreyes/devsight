@@ -59,8 +59,8 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "lint": "eslint src",
-    "fmt": "prettier --write src/**/*.{js,jsx}",
+    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "fmt": "prettier --write '{gatsby-*.js,src/**/*.{js,jsx,json,css}}'",
     "start": "gatsby serve -p $PORT",
     "deploy": "gcloud app deploy",
     "gcp-build": "yarn build"
@@ -71,9 +71,8 @@
     }
   },
   "lint-staged": {
-    "*.{js}": [
-      "yarn lint",
-      "prettier --write 'src/{pages,components}/**/*.js'",
+    "{gatsby-*.js,src/**/*.{js,jsx,json,css}}": [
+      "yarn fmt",
       "git add"
     ]
   },

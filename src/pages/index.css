@@ -1,19 +1,25 @@
 body {
-  background: #233D4D;
+  background: #233d4d;
   color: white;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: white;
 }
 
-a, strong {
-  color: #FD8841;
+a,
+strong {
+  color: #fd8841;
   opacity: 1 !important;
 }
 
 a:hover {
-  color: #FD8841;
+  color: #fd8841;
 }
 
 p {
@@ -21,6 +27,6 @@ p {
 }
 
 blockquote {
-  color: #DDD8C4;
-  border-color: #4F7CAC;
+  color: #ddd8c4;
+  border-color: #4f7cac;
 }

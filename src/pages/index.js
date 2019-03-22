@@ -1,13 +1,13 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import React from "react"
+import PropTypes from "prop-types"
+import { Link, graphql } from "gatsby"
 
-import Bio from '../components/bio'
-import Layout from '../components/layout'
-import SEO from '../components/seo'
-import { rhythm } from '../utils/typography'
+import Bio from "../components/bio"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import { rhythm } from "../utils/typography"
 
-import './index.css'
+import "./index.css"
 
 function BlogIndex({ data, location }) {
   const siteTitle = data.site.siteMetadata.title
@@ -16,8 +16,8 @@ function BlogIndex({ data, location }) {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO
-        title='DevSight — Insight on Modern Technology by Miggy Reyes'
-        keywords={['blog', 'gatsby', 'javascript', 'react']}
+        title="DevSight — Insight on Modern Technology by Miggy Reyes"
+        keywords={["blog", "gatsby", "javascript", "react"]}
       />
       <Bio />
       {posts.map(({ node }) => {
@@ -29,13 +29,14 @@ function BlogIndex({ data, location }) {
                 marginBottom: rhythm(1 / 4),
               }}
             >
-              <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
+              <Link style={{ boxShadow: "none" }} to={node.fields.slug}>
                 {title}
               </Link>
             </h3>
             <small>{node.frontmatter.date}</small>
             <p
-              dangerouslySetInnerHTML={{ // eslint-disable-line
+              dangerouslySetInnerHTML={{
+                // eslint-disable-line
                 __html: node.frontmatter.description || node.excerpt,
               }}
             />
