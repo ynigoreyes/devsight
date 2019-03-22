@@ -1,10 +1,10 @@
 ---
 title: My First Blog!
 date: "2019-03-22T07:43:57.091Z"
-description: "So what now?"
+description: "Hello, World! Welcome!"
 ---
 
-## Lets talk about Gatsby
+## Let's talk about Gatsby
 So I took some time tonight to start on a blog. I was looking at [Dan Abramov's](https://overreacted.io/) personal
 blog and I wanted to make something quick and easy to make. Here we are 3 hours later with a blog that actually works
 and is on Google App Engine.
