@@ -12,6 +12,10 @@ a {
   opacity: 1 !important;
 }
 
+a:hover {
+  color: #FD8841;
+}
+
 p {
   opacity: 0.8;
 }
