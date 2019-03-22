@@ -40,7 +40,7 @@
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "gatsby serve -p $PORT",
-    "lint": "eslint pages components",
+    "lint": "eslint src",
     "fmt": "prettier --write 'src/{pages,components}/**/*.js'",
     "deploy": "gcloud app deploy",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
