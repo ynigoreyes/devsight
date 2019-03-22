@@ -59,7 +59,7 @@
     }
   },
   "lint-staged": {
-    "*.js": [
+    "*.{js}": [
       "yarn lint",
       "prettier --write 'src/{pages,components}/**/*.js'",
       "git add"
