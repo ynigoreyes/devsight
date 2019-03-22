@@ -57,11 +57,11 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Gatsby Starter Blog',
-        short_name: 'GatsbyJS',
+        name: 'DevSight — Insight on Modern Technology by Miggy Reyes',
+        short_name: 'DevSight',
         start_url: '/',
         background_color: '#ffffff',
-        theme_color: '#663399',
+        theme_color: '#FD8841',
         display: 'minimal-ui',
         icon: 'content/assets/devsight.png',
       },
