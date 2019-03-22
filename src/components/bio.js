@@ -18,33 +18,42 @@ function Bio() {
       render={data => {
         const { author, social } = data.site.siteMetadata
         return (
-          <div
-            style={{
-              display: 'flex',
-              marginBottom: rhythm(2.5),
-            }}
-          >
-            <Image
-              fixed={data.avatar.childImageSharp.fixed}
-              alt={author}
+          <div>
+            <div
               style={{
-                marginRight: rhythm(1 / 2),
-                marginBottom: 0,
-                minWidth: 50,
-                borderRadius: '100%',
+                display: 'flex',
               }}
-              imgStyle={{
-                borderRadius: '50%',
-              }}
-            />
-            <p>
+            >
+              <Image
+                fixed={data.avatar.childImageSharp.fixed}
+                alt={author}
+                style={{
+                  marginRight: rhythm(1 / 2),
+                  marginBottom: 0,
+                  minWidth: 50,
+                  borderRadius: '100%',
+                }}
+                imgStyle={{
+                  borderRadius: '50%',
+                }}
+              />
+              <p>
               Written by <strong>{author}</strong> who goes to school at Texas
               Tech University. He likes to build cool apps and is learning how
               to cook food.<br />
-              <a href={`https://twitter.com/${social.twitter}`}>
+                <a href={`https://twitter.com/${social.twitter}`}>
                 You should follow him on Twitter
-              </a>
-            </p>
+                </a>
+              </p>
+            </div>
+            <div
+              style={{
+                marginBottom: rhythm(2.5),
+                textAlign: 'center',
+              }}
+            >
+              <a href='mailto:ynigoreyes@gmail.com?Subject=Hi!' target='_blank' rel='noopener noreferrer'>email</a> • <a href='https://storage.googleapis.com/devsight.appspot.com/resume.pdf' target='_blank' rel='noopener noreferrer'>resume</a>  •  <a href='https://github.com/ynigoreyes' target='_blank' rel='noopener noreferrer'>github</a>
+            </div>
           </div>
         )
       }}
