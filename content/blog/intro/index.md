@@ -6,13 +6,14 @@ description: "Formal introductions"
 
 > So tell me about yourself.
 
-So my name is Ynigo Reyes, but people usually refer to my as "Miggy" which is my nickname. Most of my time is spent talking to
-my wonderful girlfriend [Shinn Bermudo](https://twitter.com/ShinnBermudo), making fun of my best friend Anthony Veserra and [Hector Gonzalez](https://twitter.com/Hector27036812),
+So my name is Ynigo Reyes, but people usually refer to me as "Miggy" which is my nickname. Most of my time is spent talking to
+my wonderful girlfriend [Shinn Bermudo](https://twitter.com/ShinnBermudo), making fun of my best friends Anthony Veserra and [Hector Gonzalez](https://twitter.com/Hector27036812),
 and trying to come up with something to cook tonight.
 
 I am currently a sophomore at Texas Tech University as a Dual Major in Computer Science and Mathematics. People always
 ask my why I wanted to become a double major and I tell them "because it made sense". High-key not a fan of
 calculus, but I **love** the theoretical proofs and the whole process of building solutions from the ground up.
+I just think that it is fun solve problems from the ground up.
 
 > That's great and all, but I want to know about the technical stuff that you do
 
@@ -50,7 +51,7 @@ I'm really excited to learn about Azure and all the cool stuff that goes around 
 you still want to have fun and hangout with friends.
 
 Right now (March 22), I am also in the process of interview with Google for a Software Development Internship in Fall 2019,
-I am really excited for that because this would be my second go at this. I did not do well at all my first time
+I am really excited for that because this would be my second go at this. I did not do well my first time
 so this is kind of a redemption opportunity.
 
 > So what's the plan? What do you want to do? What do you want to accomplish?
