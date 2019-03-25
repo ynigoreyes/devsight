@@ -43,39 +43,32 @@ function Bio() {
                 food.
                 <br />
                 <a href={`https://twitter.com/${social.twitter}`}>
-                  Checkout my twitter
+                  twitter
+                </a> •{' '}
+                <a
+                  href="mailto:ynigoreyes@gmail.com?Subject=Hi!"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  email
+                </a>{' '}
+                •{' '}
+                <a
+                  href="https://storage.googleapis.com/devsight.appspot.com/resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  resume
+                </a>{' '}
+                •{' '}
+                <a
+                  href="https://github.com/ynigoreyes"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  github
                 </a>
               </p>
-            </div>
-            <div
-              style={{
-                marginBottom: rhythm(2.5),
-                textAlign: 'center',
-              }}
-            >
-              <a
-                href="mailto:ynigoreyes@gmail.com?Subject=Hi!"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                email
-              </a>{' '}
-              •{' '}
-              <a
-                href="https://storage.googleapis.com/devsight.appspot.com/resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                resume
-              </a>{' '}
-              •{' '}
-              <a
-                href="https://github.com/ynigoreyes"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                github
-              </a>
             </div>
           </div>
         )
