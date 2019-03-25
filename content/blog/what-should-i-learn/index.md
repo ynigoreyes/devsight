@@ -17,9 +17,8 @@ Honestly this blog could be summed up in a few words so might as well
 
 > Use the right tool, for the right job.
 
-I'm going to go over the questions that I ask myself when I see a new shiny toy
+I'm going to go over a question that I ask myself when I see a new shiny toy
 
-![Question 1](./1.gif)
 ## What are you looking to do?
 Based on what I just said, it only seems fair to start off with this question. Let's start off with **YOU**.
 Click on the description to jump, but I still think you can learn something if you read along
@@ -83,7 +82,6 @@ the subject
 It really all depends. There are so many questions to ask. The more of then that you can answer, the better
 engineer you will be.
 
-![Question 2](./2.gif)
-## How much support is in this technology? Is it stable or is it kind of buggy?
--- Coming Soon! Blog not finished --
+Sorry if you don't like this answer of "It depends", but I thought I might was well
+get you used to hearing it, because it's what you will hear from everyone else.
 
