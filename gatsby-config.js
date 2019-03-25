@@ -1,77 +1,83 @@
 module.exports = {
   siteMetadata: {
-    title: "DevSight",
-    author: "Miggy Reyes",
+    title: 'DevSight',
+    author: 'Miggy Reyes',
     description: "A developer's insight on modern technology",
-    siteUrl: "https://devsight.appspot.com",
+    siteUrl: 'https://devsight.appspot.com',
     social: {
-      twitter: "heymigs6",
+      twitter: 'heymigs6',
     },
   },
   plugins: [
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/content/blog`,
-        name: "blog",
+        name: 'blog',
       },
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/content/assets`,
-        name: "assets",
+        name: 'assets',
       },
     },
     {
-      resolve: "gatsby-transformer-remark",
+      resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-images",
+            resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 590,
             },
           },
           {
-            resolve: "gatsby-remark-responsive-iframe",
+            resolve: 'gatsby-remark-responsive-iframe',
             options: {
-              wrapperStyle: "margin-bottom: 1.0725rem",
+              wrapperStyle: 'margin-bottom: 1.0725rem',
             },
           },
-          "gatsby-remark-prismjs",
-          "gatsby-remark-copy-linked-files",
-          "gatsby-remark-smartypants",
+          {
+            resolve: 'gatsby-remark-autolink-headers',
+            options: {
+              offsetY: 30,
+            },
+          },
+          'gatsby-remark-prismjs',
+          'gatsby-remark-copy-linked-files',
+          'gatsby-remark-smartypants',
         ],
       },
     },
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-sharp",
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: 'gatsby-plugin-google-analytics',
       options: {
         // trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
-    "gatsby-plugin-feed",
+    'gatsby-plugin-feed',
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        name: "DevSight — Insight on Modern Technology by Miggy Reyes",
-        short_name: "DevSight",
-        start_url: "/",
-        background_color: "#ffffff",
-        theme_color: "#FD8841",
-        display: "minimal-ui",
-        icon: "content/assets/devsight.png",
+        name: 'DevSight — Insight on Modern Technology by Miggy Reyes',
+        short_name: 'DevSight',
+        start_url: '/',
+        background_color: '#ffffff',
+        theme_color: '#FD8841',
+        display: 'minimal-ui',
+        icon: 'content/assets/devsight.png',
       },
     },
-    "gatsby-plugin-offline",
-    "gatsby-plugin-react-helmet",
+    'gatsby-plugin-offline',
+    'gatsby-plugin-react-helmet',
     {
-      resolve: "gatsby-plugin-typography",
+      resolve: 'gatsby-plugin-typography',
       options: {
-        pathToConfigModule: "src/utils/typography",
+        pathToConfigModule: 'src/utils/typography',
       },
     },
   ],

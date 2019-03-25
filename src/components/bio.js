@@ -5,11 +5,11 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from "react"
-import { StaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
+import React from 'react'
+import { StaticQuery, graphql } from 'gatsby'
+import Image from 'gatsby-image'
 
-import { rhythm } from "../utils/typography"
+import { rhythm } from '../utils/typography'
 
 function Bio() {
   return (
@@ -21,7 +21,7 @@ function Bio() {
           <div>
             <div
               style={{
-                display: "flex",
+                display: 'flex',
               }}
             >
               <Image
@@ -31,14 +31,14 @@ function Bio() {
                   marginRight: rhythm(1 / 2),
                   marginBottom: 0,
                   minWidth: 50,
-                  borderRadius: "100%",
+                  borderRadius: '100%',
                 }}
                 imgStyle={{
-                  borderRadius: "50%",
+                  borderRadius: '50%',
                 }}
               />
               <p>
-                <strong>{author}</strong> - Student at Texas Tech University.{" "}
+                <strong>{author}</strong> - Student at Texas Tech University.{' '}
                 <br /> He likes to build cool apps and is learning how to cook
                 food.
                 <br />
@@ -50,7 +50,7 @@ function Bio() {
             <div
               style={{
                 marginBottom: rhythm(2.5),
-                textAlign: "center",
+                textAlign: 'center',
               }}
             >
               <a
@@ -59,16 +59,16 @@ function Bio() {
                 rel="noopener noreferrer"
               >
                 email
-              </a>{" "}
-              •{" "}
+              </a>{' '}
+              •{' '}
               <a
                 href="https://storage.googleapis.com/devsight.appspot.com/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 resume
-              </a>{" "}
-              •{" "}
+              </a>{' '}
+              •{' '}
               <a
                 href="https://github.com/ynigoreyes"
                 target="_blank"

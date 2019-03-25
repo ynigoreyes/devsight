@@ -1,8 +1,8 @@
-import React from "react"
-import PropTypes from "prop-types"
-import { Link } from "gatsby"
+import React from 'react'
+import PropTypes from 'prop-types'
+import { Link } from 'gatsby'
 
-import { rhythm, scale } from "../utils/typography"
+import { rhythm, scale } from '../utils/typography'
 
 function Layout({ location, title, children }) {
   const rootPath = `${__PATH_PREFIX__}/` // eslint-disable-line
@@ -19,9 +19,9 @@ function Layout({ location, title, children }) {
       >
         <Link
           style={{
-            boxShadow: "none",
-            textDecoration: "none",
-            color: "inherit",
+            boxShadow: 'none',
+            textDecoration: 'none',
+            color: 'inherit',
           }}
           to="/"
         >
@@ -33,16 +33,16 @@ function Layout({ location, title, children }) {
     header = (
       <h3
         style={{
-          fontFamily: "Montserrat, sans-serif",
-          color: "#FD8841",
+          fontFamily: 'Montserrat, sans-serif',
+          color: '#FD8841',
           marginTop: 0,
         }}
       >
         <Link
           style={{
-            boxShadow: "none",
-            textDecoration: "none",
-            color: "inherit",
+            boxShadow: 'none',
+            textDecoration: 'none',
+            color: 'inherit',
           }}
           to="/"
         >
@@ -54,8 +54,8 @@ function Layout({ location, title, children }) {
   return (
     <div
       style={{
-        marginLeft: "auto",
-        marginRight: "auto",
+        marginLeft: 'auto',
+        marginRight: 'auto',
         maxWidth: rhythm(24),
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
       }}
