@@ -4,7 +4,7 @@ date: "2019-03-28T16:54:24.698Z"
 description: "Why I chose React as my front end library of choice"
 ---
 
-> Hey man, so i keep hearing about this library called React. What can you tell me about?
+> Hey man, so I keep hearing about this library called React. What can you tell me about?
 
 If you are more of a docs kinda gal/guy, here is the [GitHub Repo](https://github.com/facebook/react) for it.
 Otherwise, let me tell you a story about React and why I started using it
