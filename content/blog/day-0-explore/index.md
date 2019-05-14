@@ -11,7 +11,7 @@ It gives us the chance to try out Microsoft without having to go up against the 
 when interviewing.
 
 I got an email back in August 2018 that I had a phone screen with an engineer at Microsoft. I was very
-excited especially since Google's interview didn't go to well. I saw this as a redemption. And so I told
+excited especially since Google's interview didn't go too well. I saw this as a redemption. And so I told
 myself this is going to be the internship that I am going to crush and work really hard on to get.
 
 > What did you do to prep? I heard they have very technical interviews.
@@ -40,9 +40,11 @@ What did I find myself doing all the time when faced with these problems?
 
 Take caution with this approach as it is **not a good representation of your interviewing skills**.
 During the interview, especially for these large companies, the data structure in question is
-usually not obvious. Finding the data structure is half the battle. This
+usually not obvious. Finding the data structure is half the battle.
 
-Cracking the Coding is also a very good option. This also help
+Cracking the Coding is also a very good option. This teaches specific, but common algorithms and patterns
+seen with these types of problems. If you get bored of LeetCode, feel more than free to switch to CtCI for
+that week.
 
 #### LeetCode - Algorithms
 
@@ -67,7 +69,7 @@ okay.
 
 The goal for this mock interview is to...
 1. Demonstrate technical prowess
-2. Show the interview that you can explain in a way that is simple and easy to follow
+2. Show the interviewer that you can explain in a way that is simple and easy to follow
 
 Your real interviewer will most likely be an engineer as well so you can use technical terms when
 needed. What I have found is that your goal should be to make the interviewer feel as smart as possible.
@@ -92,7 +94,7 @@ Read the book for more detail, but in short...
 2. Allow for the interviewer to interact with you.
 > "Would you like to know more about my officer positions or what I did during my personal projects?"
 3. Be happy and make the interviewer comfortable talking with you.
-4. Ask questions at the end. If you don't it shows that you are uninterested and don't care for the job.
+4. Ask questions at the end. If you don't, it shows that you are uninterested and don't care for the job.
 
 Honestly, the interview process is a game and you need to learn how to play your cards right. Show off,
 but don't come off as a jerk that puts other people down. No one is going to want to work with you
